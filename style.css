@@ -1,0 +1,158 @@
+/* ========= Global Reset ========= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.75;
+  background: #ede9e4; 
+  color: #2a2a2a;
+}
+
+/* ========= Header ========= */
+/* ===== Header Upgrade ===== */
+header {
+  background: #dcd6cf; 
+  padding: 42px 20px 36px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+header h1 {
+  margin: 0 0 12px;
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: #1f1f1f;
+}
+
+header p:first-of-type {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #444;
+  margin: 6px 0 12px;
+}
+
+header p:last-of-type {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+header a {
+  text-decoration: none;
+  color: #2f2f2f;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding-bottom: 2px;
+}
+
+header a:hover {
+  border-bottom-color: rgba(0,0,0,0.5);
+}
+
+
+/* ========= Navigation ========= */
+nav {
+  padding: 12px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 6px 10px;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  background: #e2ddd7;
+  color: #333;
+  padding: 9px 16px;
+  border: 1px solid #d0cbc6;
+  border-radius: 999px;
+}
+
+nav ul li a:hover {
+  background: #d8d2cc;
+}
+
+/* ========= Main ========= */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+/* ========= Sections ========= */
+section {
+  background: #f4f1ed; 
+  padding: 22px;
+  margin-bottom: 26px;
+  border: 1px solid #ded9d4;
+  border-radius: 14px;
+}
+
+section h2 {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #666;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+/* ========= Articles ========= */
+article {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed #ddd;
+}
+
+article h3 {
+  margin: 0 0 6px 0;
+  font-weight: 600;
+}
+
+/* ========= Lists ========= */
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ========= Footer ========= */
+footer {
+  text-align: center;
+  padding: 22px 14px;
+  color: #666;
+}
+
+/*========= Demo Video Link ========= */
+.demo-link a {
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: none;
+  color: #3a3a3a;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.demo-link a:hover {
+  color: #111;
+  border-bottom-color: rgba(0,0,0,0.6);
+}
+
+.link-sep {
+  margin: 0 6px;
+  color: #888;
+}
+

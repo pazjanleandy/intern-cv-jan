@@ -21,6 +21,7 @@ This repository contains my Curriculum Vitae built using semantic HTML and style
 
 ## Changelog
 - 2026-01-16 – Added CSS styling and demo links
+- 2026-01-22 - Added JS scripts for more functionality
 
 ## Author
 Jan Leandy S. Paz

@@ -13,23 +13,33 @@
     <p>💻 Software Engineering Intern QA/Web Dev</p>
     <p>
       📍 Pilar, Las Piñas City •
-     ✉️ <a href="mailto:pazjanleandy@gmail.com">pazjanleandy@gmail.com</a> •
+      ✉️ <a href="mailto:pazjanleandy@gmail.com">pazjanleandy@gmail.com</a> •
       📞 09764294351
     </p>
+
   </header>
 
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
     </ul>
   </nav>
 
+  <!-- JS Controls -->
+  <div class="theme-dock">
+    <button id="toggleThemeBtn" type="button">🌑</button>
+    <button id="themeBtn" class="theme-btn" type="button">🌙</button>
+     <button id="lightBtn" class="theme-btn" type="button">☀️</button>
+
+  </div>
+
   <main>
 
-    <section>
-      <h2>About Me</h2>
+    <section id="about">
+      <h2>About Me  <button class="toggle-btn" data-target="about-content">Hide</button></h2>
+      <div id = "about-content">
       <p>
         I am a Computer Science student specializing in Software Engineering with
         hands-on experience in AI-driven systems, front-end development, and
@@ -37,9 +47,13 @@
         user-focused applications and continuously improving my technical skill set.
       </p>
     </section>
+    </div>
+    
 
-    <section>
-      <h2>Education</h2>
+    <section id="education">
+      <h2>Education <button class="toggle-btn" data-target="education-content">Hide</button></h2>
+
+      <div id = "education-content">
 
       <article>
         <h3>Bachelor of Science in Computer Science</h3>
@@ -53,104 +67,90 @@
           Relevant Coursework: Machine Learning, Arduino, Software Engineering, User Interface (UI)
         </p>
       </article>
+      </div>
+      
 
     </section>
 
-    <section>
-      <h2>Experience</h2>
+    <section id="experience">
+      <h2>Experience <button class="toggle-btn" data-target="experience-content">Hide</button></h2>
+      <div id = "experience-content">
 
       <article>
         <h3>Student Developer – ThrowAway ♻️</h3>
         <p>Far Eastern University Alabang (2025)</p>
         <ul>
-          <li>
-            Led front-end development and contributed to the back-end pipeline of an
-            AI-assisted waste segregation system.
-          </li>
-          <li>
-            Contributed to CNN and YOLO model training with PyTorch dataset augmentation,
-            achieving 99% image recognition accuracy.
-          </li>
-          <li>
-            Engineered an Arduino-based conveyor system integrating motors, sensors,
-            and power management circuitry.
-          </li>
-          <li>
-            Designed the system UI/UX to ensure intuitive and user-friendly interaction.
-          </li>
-          <p class="demo-link">
-              🎥 <a href="https://www.dropbox.com/scl/fi/u1sudse23fjd7adc2b1xq/400OJ-AVP.mp4?rlkey=kh44s8v69756nyvatoah8hy0q&st=bclbdhx4&dl=0" target="_blank">Demo Video</a>
-          </p>
+          <li>Led front-end development and contributed to the back-end pipeline of an AI-assisted waste segregation system.</li>
+          <li>Contributed to CNN and YOLO model training with PyTorch dataset augmentation, achieving 99% image recognition accuracy.</li>
+          <li>Engineered an Arduino-based conveyor system integrating motors, sensors, and power management circuitry.</li>
+          <li>Designed the system UI/UX to ensure intuitive and user-friendly interaction.</li>
         </ul>
+
+        <p class="demo-link">
+          🎥 <a href="https://www.dropbox.com/scl/fi/u1sudse23fjd7adc2b1xq/400OJ-AVP.mp4?rlkey=kh44s8v69756nyvatoah8hy0q&st=bclbdhx4&dl=0" target="_blank" rel="noopener">Demo Video</a>
+        </p>
       </article>
 
       <article>
         <h3>Student Developer – Hysteria 🎮</h3>
         <p>Far Eastern University Alabang (2024)</p>
         <ul>
-          <li>
-            Developed a Unity mobile game implementing procedural generation using
-            the Fisher–Yates algorithm.
-          </li>
-          <li>
-            Supervised gameplay and UX design while ensuring optimized performance.
-          </li>
-          <li>
-            Implemented C# scripting for enemy AI, movement, and gameplay mechanics.
-          </li>
-          <p class="demo-link">
-              🎥 <a href="https://www.dropbox.com/scl/fi/cazogxn4yospnu8p71x88/425374397_6838590036245668_6519561393985892122_n.mp4?rlkey=trr3qqdo55mezxyqphtra2xs4&st=4khfykbl&dl=0" target="_blank">Demo Video</a>
-               <span class="link-sep">•</span>
-               📄 <a href="https://drive.google.com/file/d/1uTJ1R9Eo1Pq5Dm2jf35d7HnT6pJytXvR/view?usp=sharing" target="_blank">Documentation</a>
-               <span class="link-sep">•</span>
-               🖼️ <a href="https://drive.google.com/drive/folders/19xL6QH4LvRaQZ9LMsxj7K-Bhi5yQgEDN?usp=sharing" target="_blank">Screenshots</a>
-          </p>
+          <li>Developed a Unity mobile game implementing procedural generation using the Fisher–Yates algorithm.</li>
+          <li>Supervised gameplay and UX design while ensuring optimized performance.</li>
+          <li>Implemented C# scripting for enemy AI, movement, and gameplay mechanics.</li>
         </ul>
+
+        <p class="demo-link">
+          🎥 <a href="https://www.dropbox.com/scl/fi/cazogxn4yospnu8p71x88/425374397_6838590036245668_6519561393985892122_n.mp4?rlkey=trr3qqdo55mezxyqphtra2xs4&st=4khfykbl&dl=0" target="_blank" rel="noopener">Demo Video</a>
+          <span class="link-sep">•</span>
+          📄 <a href="https://drive.google.com/file/d/1uTJ1R9Eo1Pq5Dm2jf35d7HnT6pJytXvR/view?usp=sharing" target="_blank" rel="noopener">Documentation</a>
+          <span class="link-sep">•</span>
+          🖼️ <a href="https://drive.google.com/drive/folders/19xL6QH4LvRaQZ9LMsxj7K-Bhi5yQgEDN?usp=sharing" target="_blank" rel="noopener">Screenshots</a>
+        </p>
       </article>
 
       <article>
         <h3>Student Developer – Bookbound 📚</h3>
         <p>Far Eastern University Alabang (2024)</p>
         <ul>
-          <li>
-            Proposed and pitched a subscription-based platform promoting local
-            literature and academic resources.
-          </li>
-          <li>
-            Managed the project team and led concept, marketing, and design direction.
-          </li>
-          <li>
-            Designed intuitive mobile and web interfaces focused on usability and
-            visual clarity.
-          </li>
-                <p class="demo-link">
-            🎥 <a href="https://www.dropbox.com/scl/fi/vjiccoowbibuzoyjfp4l1/Infomercial-Techno-Final-7.mp4?rlkey=hp9mv8c2pu6jacc1jchd2m4jl&st=3wba9k16&dl=0" target="_blank">Demo Video</a>
-        </p>
+          <li>Proposed and pitched a subscription-based platform promoting local literature and academic resources.</li>
+          <li>Managed the project team and led concept, marketing, and design direction.</li>
+          <li>Designed intuitive mobile and web interfaces focused on usability and visual clarity.</li>
         </ul>
+
+        <p class="demo-link">
+          🎥 <a href="https://www.dropbox.com/scl/fi/vjiccoowbibuzoyjfp4l1/Infomercial-Techno-Final-7.mp4?rlkey=hp9mv8c2pu6jacc1jchd2m4jl&st=3wba9k16&dl=0" target="_blank" rel="noopener">Demo Video</a>
+        </p>
       </article>
+      </div>
 
     </section>
 
-    <section>
-      <h2>Technical Skills</h2>
+    <section id="skills">
+      <h2>Technical Skills <button class="toggle-btn" data-target="skills-content">Hide</button></h2>
+      <div id = "skills-content">
       <ul>
-          <li>🐍 Python</li>
-          <li>🤖 Machine Learning</li>
-          <li>🎨 CSS</li>
-          <li>⚡ JavaScript</li>
-          <li>☕ Java</li>
+        <li>🐍 Python</li>
+        <li>🤖 Machine Learning</li>
+        <li>🎨 CSS</li>
+        <li>⚡ JavaScript</li>
+        <li>☕ Java</li>
       </ul>
+      </div>
     </section>
+    
 
   </main>
 
   <footer>
     <p>© 2025 Jan Leandy S. Paz</p>
     <p>
-      <a href="https://github.com/pazjanleandy">GitHub</a> |
-      <a href="https://www.linkedin.com/in/jan-leandy-paz-7851b339b/">LinkedIn</a>
+      <a href="https://github.com/pazjanleandy" target="_blank" rel="noopener">GitHub</a> |
+      <a href="https://www.linkedin.com/in/jan-leandy-paz-7851b339b/" target="_blank" rel="noopener">LinkedIn</a>
     </p>
   </footer>
 
+  <!-- Link JS file -->
+  <script src="script.js"></script>
 </body>
 </html>
